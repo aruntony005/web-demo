@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: web-demo
+spec:
+  replicas: 1
+  template:
+    metadata:
+      name: web-demo
+      labels:
+        app: web-demo
+    spec:
+      containers:
+        - name: web-demo
+          image: WEB-IMAGE
+          ports:
+            - protocol: TCP
+              containerPort: 8080
+  selector:
+        matchLabels:
+           app: web-demo
