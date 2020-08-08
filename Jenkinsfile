@@ -9,7 +9,7 @@ node('master') {
             ls -a
          """
     }
-    stage("kubernetes image build and deployment stage")
+    stage("kubernetes image build and deployment stage") {
         sh """#!/bin/bash -e\n
             sudo kubectl get all
             chmod 755 web-demo/shell.sh
