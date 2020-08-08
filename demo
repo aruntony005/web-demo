@@ -12,7 +12,7 @@
 </div>
 <p><span style="color:black;font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span></p>
 <p align="right"><b><font color=black size=5><a href="http://abcd:8080/user_access/adgroups.csv" download> Download</font></b></p>
-<table style="width:200px" align=center cellspacing=2 cellpadding=2 bordercolor="black" bgcolor="cornsilk"><tr><th bgcolor="#4C4C4F"><font color="white">AD Group Name</font></th><th bgcolor="#4C4C4F"><font color="white">Users</font></th></tr>
+<table style="width:1000px" align=center cellspacing=2 cellpadding=2 bordercolor="black" bgcolor="cornsilk"><tr><th bgcolor="#4C4C4F"><font color="white">AD Group Name</font></th><th bgcolor="#4C4C4F"><font color="white">Users</font></th></tr>
 <tr>
 <th  bgcolor=cornsilk><font color="black">group1</font></th>
 <th  bgcolor=cornsilk><font color="black">user1</font></th>
