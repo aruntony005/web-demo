@@ -2,8 +2,8 @@
 <head>
 <link rel="stylesheet" type="text/css" href="useraccess.css">
 </head>
-<body style="background-color:blue">
-<p><font color=black font size=5 face=Times New Roman><b><p align=center>sample table</a></b></font></p>
+<body style="background-color:green">
+<p><font color=black font size=5 face=Times New Roman><b><p align=center>AP TRAININGS</a></b></font></p>
 <p></p>
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
